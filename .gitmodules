@@ -1,0 +1,3 @@
+[submodule "EasyProgressDialog"]
+	path = EasyProgressDialog
+	url = git://github.com/TaoK/EasyProgressDialog.git

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsbKeyBackup", "UsbKeyBackup\UsbKeyBackup.csproj", "{8B768672-EEB5-4DF2-BC02-A0DCB3F8F7E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyProgressDialog", "..\ProgressDialog\EasyProgressDialog.csproj", "{1A609D9C-C55A-4E67-A4A1-9EC19F1F7000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyProgressDialog", "EasyProgressDialog\EasyProgressDialog.csproj", "{1A609D9C-C55A-4E67-A4A1-9EC19F1F7000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
