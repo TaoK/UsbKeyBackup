@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KlerksSoft.UsbKeyBackup.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BackupLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\USB_Key_Backups</Value>
+    </Setting>
+    <Setting Name="LocationToBackup" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.</Value>
+    </Setting>
+    <Setting Name="Period1Start" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="Period1Interval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="Period2Start" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">28</Value>
+    </Setting>
+    <Setting Name="Period2Interval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">28</Value>
+    </Setting>
+    <Setting Name="Period3Start" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">365</Value>
+    </Setting>
+    <Setting Name="Period3Interval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">365</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.Globalization.CultureInfo" Scope="Application">
+      <Value Profile="(Default)">English</Value>
+    </Setting>
+    <Setting Name="OwnerName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FinalCutOffDays" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="EncryptionPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UseDatabase" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EncryptionCheckPhrase" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackupCompleteConfirmationText" xml:space="preserve">
+    <value>The backup is complete! This program will now exit.</value>
+  </data>
+  <data name="BackupCompleteConfirmationTitle" xml:space="preserve">
+    <value>Backup Complete!</value>
+  </data>
+  <data name="BackupProgressText" xml:space="preserve">
+    <value>Backing up folders &amp; files...</value>
+  </data>
+  <data name="BackupProgressTitle" xml:space="preserve">
+    <value>Backing Up...</value>
+  </data>
+  <data name="BackupsToDeleteTitle" xml:space="preserve">
+    <value>Delete Old Backups?</value>
+  </data>
+  <data name="BackupsToDeleteWarning" xml:space="preserve">
+    <value>There are {BackCount} past backups to be deleted according to your backup retention parameters.  Would you like these to be deleted now?</value>
+  </data>
+  <data name="NoBackupsTitle" xml:space="preserve">
+    <value>Back Up Here?</value>
+  </data>
+  <data name="NoBackupsWarning" xml:space="preserve">
+    <value>No backups have been made to this location yet. 
+Are you sure you want to backup to this computer?</value>
+  </data>
+  <data name="None_Parens" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="NoSpaceDisplayContinueQuestionText" xml:space="preserve">
+    <value>There is not enough space in the selected destination for the backup data. Are you sure you want to attempt the backup?</value>
+  </data>
+  <data name="NoSpaceDisplayContinueQuestionTitle" xml:space="preserve">
+    <value>Low Space - Continue?</value>
+  </data>
+  <data name="NoSpaceDisplayWarningText" xml:space="preserve">
+    <value>There is not enough space in the selected destination for the backup data. Please check the selected backup destination.</value>
+  </data>
+  <data name="NoSpaceDisplayWarningTitle" xml:space="preserve">
+    <value>Low Space</value>
+  </data>
+  <data name="SizeEstimateProgressText" xml:space="preserve">
+    <value>Verifying backup size, please wait...</value>
+  </data>
+  <data name="SizeEstimateProgressTitle" xml:space="preserve">
+    <value>Verifying Backup Size</value>
+  </data>
+  <data name="OperationCancelledText" xml:space="preserve">
+    <value>Operation Cancelled!</value>
+  </data>
+  <data name="OperationCancelledTitle" xml:space="preserve">
+    <value>Operation Cancelled</value>
+  </data>
+  <data name="RestoreActionConfirmationText" xml:space="preserve">
+    <value>Would you like to restore "{SelectedItem}"?</value>
+  </data>
+  <data name="RestoreActionConfirmationTitle" xml:space="preserve">
+    <value>Restore File?</value>
+  </data>
+  <data name="RestoreChooseDestinationText" xml:space="preserve">
+    <value>Please to choose a directory to restore to.</value>
+  </data>
+  <data name="RestoreChooseDestinationTitle" xml:space="preserve">
+    <value>Choose Destination</value>
+  </data>
+  <data name="RestoreDestinationNotExistsText" xml:space="preserve">
+    <value>Destination Path does not Exist! Restore aborted.</value>
+  </data>
+  <data name="RestoreDestinationNotExistsTitle" xml:space="preserve">
+    <value>Invalid Destination</value>
+  </data>
+  <data name="RestoreSelectedFileDoesNotExistText" xml:space="preserve">
+    <value>Provided File does not exist! Restore aborted.</value>
+  </data>
+  <data name="RestoreSelectedFileDoesNotExistTitle" xml:space="preserve">
+    <value>Invalid Selection</value>
+  </data>
+  <data name="RestoreSuccessfulConfirmationText" xml:space="preserve">
+    <value>File(s) restored successfully.</value>
+  </data>
+  <data name="RestoreSuccessfulConfirmationTitle" xml:space="preserve">
+    <value>Restored Successfully</value>
+  </data>
+  <data name="RestoringFilesProgressText" xml:space="preserve">
+    <value>Restoring Files...</value>
+  </data>
+  <data name="RestoringFilesProgressTitle" xml:space="preserve">
+    <value>Restoring Files</value>
+  </data>
+  <data name="NoBackupsWarningDetail_NoPassword" xml:space="preserve">
+    <value>
+
+Anyone else using the computer later will have access to the backed-up files.</value>
+  </data>
+  <data name="NoBackupsWarningDetail_WithPassword" xml:space="preserve">
+    <value>
+
+The backed-up files will be protected with the password stored with this program, and remain safe as long as no-one has access to the program's configuration file.</value>
+  </data>
+  <data name="RestoreFormMainPromptChooseBackup" xml:space="preserve">
+    <value>Please select a backup date and choose "Restore" to restore the whole backup or "Open" to explore inside for individual files or folders to restore:</value>
+  </data>
+  <data name="RestoreFormMainPromptChooseFileFolder" xml:space="preserve">
+    <value>Please select a file to restore, or a folder to explore or restore, or click "Up" to go back to a higher folder or to the list of backups:</value>
+  </data>
+</root>

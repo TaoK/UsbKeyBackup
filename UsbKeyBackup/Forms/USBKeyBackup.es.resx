@@ -1,0 +1,812 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_Cancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 207</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_Finish.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btn_Finish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 207</value>
+  </data>
+  <data name="btn_Finish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="btn_Finish.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btn_Finish.Text" xml:space="preserve">
+    <value>Hacer copia</value>
+  </data>
+  <data name="&gt;&gt;btn_Finish.Name" xml:space="preserve">
+    <value>btn_Finish</value>
+  </data>
+  <data name="&gt;&gt;btn_Finish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Finish.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Finish.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_Next.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btn_Next.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 207</value>
+  </data>
+  <data name="btn_Next.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Next.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_Next.Text" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="&gt;&gt;btn_Next.Name" xml:space="preserve">
+    <value>btn_Next</value>
+  </data>
+  <data name="&gt;&gt;btn_Next.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Next.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Next.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_Previous.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btn_Previous.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_Previous.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 207</value>
+  </data>
+  <data name="btn_Previous.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Previous.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn_Previous.Text" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="&gt;&gt;btn_Previous.Name" xml:space="preserve">
+    <value>btn_Previous</value>
+  </data>
+  <data name="&gt;&gt;btn_Previous.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Previous.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Previous.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grp_Step1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_BackupLocation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_BackupLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 141</value>
+  </data>
+  <data name="lbl_BackupLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 36</value>
+  </data>
+  <data name="lbl_BackupLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_BackupLocation.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbl_BackupLocation.Name" xml:space="preserve">
+    <value>lbl_BackupLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupLocation.Parent" xml:space="preserve">
+    <value>grp_Step1</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupLocation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_LocToBackLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_LocToBackLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_LocToBackLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 126</value>
+  </data>
+  <data name="lbl_LocToBackLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="lbl_LocToBackLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbl_LocToBackLabel.Text" xml:space="preserve">
+    <value>Origen de la copia:</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBackLabel.Name" xml:space="preserve">
+    <value>lbl_LocToBackLabel</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBackLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBackLabel.Parent" xml:space="preserve">
+    <value>grp_Step1</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBackLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Intro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_Intro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="lbl_Intro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 111</value>
+  </data>
+  <data name="lbl_Intro.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_Intro.Text" xml:space="preserve">
+    <value>Hola{OwnerText},
+
+¿Quieres hacer una copia de seguridad en este ordenador?</value>
+  </data>
+  <data name="&gt;&gt;lbl_Intro.Name" xml:space="preserve">
+    <value>lbl_Intro</value>
+  </data>
+  <data name="&gt;&gt;lbl_Intro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Intro.Parent" xml:space="preserve">
+    <value>grp_Step1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Intro.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grp_Step1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grp_Step1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 189</value>
+  </data>
+  <data name="grp_Step1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="grp_Step1.Text" xml:space="preserve">
+    <value>Introducción</value>
+  </data>
+  <data name="&gt;&gt;grp_Step1.Name" xml:space="preserve">
+    <value>grp_Step1</value>
+  </data>
+  <data name="&gt;&gt;grp_Step1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grp_Step1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grp_Step1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grp_BackupLocation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_dataSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_dataSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="lbl_dataSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="lbl_dataSize.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_dataSize.Text" xml:space="preserve">
+    <value>Tamaño de los datos:</value>
+  </data>
+  <data name="&gt;&gt;lbl_dataSize.Name" xml:space="preserve">
+    <value>lbl_dataSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_dataSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_dataSize.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_dataSize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_LocToBackUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_LocToBackUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 0</value>
+  </data>
+  <data name="lbl_LocToBackUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 21</value>
+  </data>
+  <data name="lbl_LocToBackUp.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_LocToBackUp.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbl_LocToBackUp.Name" xml:space="preserve">
+    <value>lbl_LocToBackUp</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBackUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBackUp.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBackUp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_LocToBack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_LocToBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lbl_LocToBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="lbl_LocToBack.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_LocToBack.Text" xml:space="preserve">
+    <value>Origen de la copia:</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBack.Name" xml:space="preserve">
+    <value>lbl_LocToBack</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBack.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_LocToBack.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_BackupDestinationLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_BackupDestinationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_BackupDestinationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 54</value>
+  </data>
+  <data name="lbl_BackupDestinationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="lbl_BackupDestinationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_BackupDestinationLabel.Text" xml:space="preserve">
+    <value>Destino de la copia:</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupDestinationLabel.Name" xml:space="preserve">
+    <value>lbl_BackupDestinationLabel</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupDestinationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupDestinationLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupDestinationLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_Size.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_Size.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 21</value>
+  </data>
+  <data name="lbl_Size.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 21</value>
+  </data>
+  <data name="lbl_Size.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbl_Size.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbl_Size.Name" xml:space="preserve">
+    <value>lbl_Size</value>
+  </data>
+  <data name="&gt;&gt;lbl_Size.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Size.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Size.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txt_BackupDestination.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txt_BackupDestination.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="txt_BackupDestination.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 20</value>
+  </data>
+  <data name="txt_BackupDestination.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_BackupDestination.Name" xml:space="preserve">
+    <value>txt_BackupDestination</value>
+  </data>
+  <data name="&gt;&gt;txt_BackupDestination.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_BackupDestination.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;txt_BackupDestination.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_BackupDestChange.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btn_BackupDestChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 3</value>
+  </data>
+  <data name="btn_BackupDestChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 21</value>
+  </data>
+  <data name="btn_BackupDestChange.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btn_BackupDestChange.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btn_BackupDestChange.Name" xml:space="preserve">
+    <value>btn_BackupDestChange</value>
+  </data>
+  <data name="&gt;&gt;btn_BackupDestChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_BackupDestChange.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;btn_BackupDestChange.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 57</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 27</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txt_BackupDestination" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btn_BackupDestChange" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,86.10272,Percent,13.89728" /&gt;&lt;Rows Styles="Percent,100,Absolute,27" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lbl_MostRecentBackupLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_MostRecentBackupLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 108</value>
+  </data>
+  <data name="lbl_MostRecentBackupLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 29</value>
+  </data>
+  <data name="lbl_MostRecentBackupLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbl_MostRecentBackupLabel.Text" xml:space="preserve">
+    <value>Copia más reciente:</value>
+  </data>
+  <data name="&gt;&gt;lbl_MostRecentBackupLabel.Name" xml:space="preserve">
+    <value>lbl_MostRecentBackupLabel</value>
+  </data>
+  <data name="&gt;&gt;lbl_MostRecentBackupLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_MostRecentBackupLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_MostRecentBackupLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_FreeSpaceLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_FreeSpaceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 87</value>
+  </data>
+  <data name="lbl_FreeSpaceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="lbl_FreeSpaceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_FreeSpaceLabel.Text" xml:space="preserve">
+    <value>Espacio disponible:</value>
+  </data>
+  <data name="&gt;&gt;lbl_FreeSpaceLabel.Name" xml:space="preserve">
+    <value>lbl_FreeSpaceLabel</value>
+  </data>
+  <data name="&gt;&gt;lbl_FreeSpaceLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_FreeSpaceLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_FreeSpaceLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_FreeSpace.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_FreeSpace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 87</value>
+  </data>
+  <data name="lbl_FreeSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 21</value>
+  </data>
+  <data name="lbl_FreeSpace.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbl_FreeSpace.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbl_FreeSpace.Name" xml:space="preserve">
+    <value>lbl_FreeSpace</value>
+  </data>
+  <data name="&gt;&gt;lbl_FreeSpace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_FreeSpace.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_FreeSpace.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_RecentBackup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbl_RecentBackup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 108</value>
+  </data>
+  <data name="lbl_RecentBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 29</value>
+  </data>
+  <data name="lbl_RecentBackup.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lbl_RecentBackup.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbl_RecentBackup.Name" xml:space="preserve">
+    <value>lbl_RecentBackup</value>
+  </data>
+  <data name="&gt;&gt;lbl_RecentBackup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_RecentBackup.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_RecentBackup.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 44</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 137</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>grp_BackupLocation</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lbl_dataSize" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbl_LocToBackUp" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbl_LocToBack" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbl_BackupDestinationLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbl_Size" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="3" RowSpan="2" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbl_MostRecentBackupLabel" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbl_FreeSpaceLabel" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbl_FreeSpace" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbl_RecentBackup" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,29.69838,Percent,70.30162" /&gt;&lt;Rows Styles="Absolute,21,Absolute,21,Absolute,12,Absolute,21,Absolute,12,Absolute,21,Absolute,21" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lbl_BackupDestination.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lbl_BackupDestination.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="lbl_BackupDestination.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 25</value>
+  </data>
+  <data name="lbl_BackupDestination.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_BackupDestination.Text" xml:space="preserve">
+    <value>Información copia:</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupDestination.Name" xml:space="preserve">
+    <value>lbl_BackupDestination</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupDestination.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupDestination.Parent" xml:space="preserve">
+    <value>grp_BackupLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_BackupDestination.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grp_BackupLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grp_BackupLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 189</value>
+  </data>
+  <data name="grp_BackupLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="grp_BackupLocation.Text" xml:space="preserve">
+    <value>Ubicación de la copia</value>
+  </data>
+  <data name="grp_BackupLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grp_BackupLocation.Name" xml:space="preserve">
+    <value>grp_BackupLocation</value>
+  </data>
+  <data name="&gt;&gt;grp_BackupLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grp_BackupLocation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grp_BackupLocation.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_Restore.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btn_Restore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 207</value>
+  </data>
+  <data name="btn_Restore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Restore.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="btn_Restore.Text" xml:space="preserve">
+    <value>Restaurar</value>
+  </data>
+  <data name="&gt;&gt;btn_Restore.Name" xml:space="preserve">
+    <value>btn_Restore</value>
+  </data>
+  <data name="&gt;&gt;btn_Restore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Restore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Restore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>460, 242</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Copia de Seguridad</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frm_FolderBackup</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
